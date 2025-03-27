@@ -8,10 +8,6 @@ setInterval(() => {
 document.write("<h1 style='color:black;'>HELLO FROM DOCUMENT.WRITE()</h1>");
 document.write('<p>Another document.write() call</p>');
 
-// Förhindrar användaren att navigera bakåt
-history.pushState(null, '', location.href);
-window.onpopstate = () => history.go(1);
-
 // Ändrar bakgrundsfärgen slumpmässigt var 500ms
 setInterval(() => {
   document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
