@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; /* Tungläst typsnitt */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Tungläst typsnitt */
 }
 
 /* Ställer in bakgrundsfärg, textfärg och textstil för hela sidan */
@@ -133,8 +133,7 @@ a {
   color: white;
   font-size: 40px;
   padding: 30px;
-  cursor: crosshair;
-  transform: rotate(-10deg);
+  cursor: pointer;
 }
 
 /* En knapp med blå bakgrund och vit text */
@@ -176,8 +175,7 @@ a {
   padding: 10px 15px;
   margin-top: 10px;
   font-weight: bold;
-  transition: transform 0.5s ease-in-out, font-size 0.5s ease-in-out,
-    padding 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, font-size 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 /* På hover minskas texten kraftigt, nästan osynlig */
