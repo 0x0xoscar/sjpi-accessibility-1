@@ -12,8 +12,3 @@ document.write('<p>Another document.write() call</p>');
 setInterval(() => {
   document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
 }, 500);
-
-// Visar innehållet på sidan efter 5 sekunder
-setTimeout(() => {
-  document.body.style.display = 'block';
-}, 5000);
