@@ -145,23 +145,6 @@ a {
   cursor: pointer;
 }
 
-/* En "fake ad" med blinkande bakgrund och fast position längst ner */
-#fake-ad {
-  position: fixed;
-  bottom: 0;
-  width: 40%;
-  background: repeating-radial-gradient(circle, cyan, magenta 10%, yellow 20%);
-  text-align: center;
-  padding: 20px;
-  font-size: 24px;
-  font-weight: bold;
-  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
 /* Sektion med centrerad layout */
 .top-section {
   display: flex;
