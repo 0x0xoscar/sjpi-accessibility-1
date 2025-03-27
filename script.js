@@ -7,8 +7,3 @@ setInterval(() => {
 // Skriver ut HTML direkt i dokumentet
 document.write("<h1 style='color:black;'>HELLO FROM DOCUMENT.WRITE()</h1>");
 document.write('<p>Another document.write() call</p>');
-
-// Ändrar bakgrundsfärgen slumpmässigt var 500ms
-setInterval(() => {
-  document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-}, 500);
